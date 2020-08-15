@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"CHESTPLATE",
+			"Voxel",
+			"harvestlevel",
+			"knockback"
+		],
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}
