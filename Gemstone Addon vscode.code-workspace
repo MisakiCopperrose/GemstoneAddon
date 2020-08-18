@@ -9,7 +9,10 @@
 			"CHESTPLATE",
 			"Voxel",
 			"harvestlevel",
-			"knockback"
+			"knockback",
+			"modid",
+			"overworld",
+			"silktouch"
 		],
 		"java.configuration.updateBuildConfiguration": "automatic"
 	}

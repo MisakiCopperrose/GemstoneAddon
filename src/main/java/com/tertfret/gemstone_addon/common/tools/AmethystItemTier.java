@@ -32,37 +32,31 @@ public enum AmethystItemTier implements IItemTier {
 
 	@Override
 	public float getAttackDamage() {
-		// TODO Auto-generated method stub
 		return attackDamage;
 	}
 
 	@Override
 	public float getEfficiency() {
-		// TODO Auto-generated method stub
 		return efficiency;
 	}
 
 	@Override
 	public int getEnchantability() {
-		// TODO Auto-generated method stub
 		return enchantability;
 	}
 
 	@Override
 	public int getHarvestLevel() {
-		// TODO Auto-generated method stub
 		return harvestlevel;
 	}
 
 	@Override
 	public int getMaxUses() {
-		// TODO Auto-generated method stub
 		return maxUses;
 	}
 
 	@Override
 	public Ingredient getRepairMaterial() {
-		// TODO Auto-generated method stub
 		return repairMaterial.get();
 	}
 

@@ -108,22 +108,18 @@ public class GemstoneWorkbench extends Block {
 
     @Override
     public BlockState mirror(BlockState state, Mirror mirrorIn) {
-    return state.rotate(mirrorIn.toRotation(state.get(FACING)));
+        return state.rotate(mirrorIn.toRotation(state.get(FACING)));
     }
 
     @Override
     protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
         builder.add(FACING);
     }
-    
-    //Ambient occlusion value
+
+    // Ambient occlusion value
     @Override
     public float getAmbientOcclusionLightValue(BlockState state, IBlockReader worldIn, BlockPos pos) {
         return 0.9f;
     }
 
-    
-
-
-    
 }

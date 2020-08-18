@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "gemstone_addon:ruby_block"
+    "type": "minecraft:smelting",
+    "ingredients": [
+        {
+            "item": "gemstone_addon:ruby_block"
+        }
+    ],
+    "result": {
+        "item": "gemstone_addon:ruby",
+        "count": 9
     }
-  ],
-  "result": {
-    "item": "gemstone_addon:ruby",
-    "count": 9
-  }
 }
