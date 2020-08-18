@@ -20,7 +20,7 @@ public enum RubyArmorMaterial implements IArmorMaterial {
     RUBY(GemstoneAddon.MOD_ID + ":ruby", 15, new int[] { 2, 5, 7, 3 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.0f,
             () -> {
                 return Ingredient.fromItems(GAItems.RUBY.get());
-            }, 0.1f);
+            }, 0.0f);
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[] { 11, 16, 15, 13 };
     private final String name;
@@ -46,44 +46,37 @@ public enum RubyArmorMaterial implements IArmorMaterial {
 
     @Override
     public int getDamageReductionAmount(EquipmentSlotType slotIn) {
-        // TODO Auto-generated method stub
         return damageReductionAmountArray[slotIn.getIndex()];
     }
 
     @Override
     public int getDurability(EquipmentSlotType slotIn) {
-        // TODO Auto-generated method stub
         return MAX_DAMAGE_ARRAY[slotIn.getIndex()] * maxDamageFactor;
     }
 
     @Override
     public int getEnchantability() {
-        // TODO Auto-generated method stub
         return enchantability;
     }
 
     @OnlyIn(Dist.CLIENT)
     @Override
     public String getName() {
-        // TODO Auto-generated method stub
         return name;
     }
 
     @Override
     public Ingredient getRepairMaterial() {
-        // TODO Auto-generated method stub
         return repairMaterial.get();
     }
 
     @Override
     public SoundEvent getSoundEvent() {
-        // TODO Auto-generated method stub
         return soundEvent;
     }
 
     @Override
     public float getToughness() {
-        // TODO Auto-generated method stub
         return toughness;
     }
 
