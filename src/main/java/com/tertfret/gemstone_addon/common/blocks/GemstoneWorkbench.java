@@ -107,6 +107,7 @@ public class GemstoneWorkbench extends Block {
     }
 
     @Override
+    @SuppressWarnings("deprecation")
     public BlockState mirror(BlockState state, Mirror mirrorIn) {
         return state.rotate(mirrorIn.toRotation(state.get(FACING)));
     }

@@ -27,6 +27,8 @@
   "item.gemstone_addon.ruby_boots": "Ruby Encrusted Iron Boots",
   "item.gemstone_addon.ruby_chestplate": "Ruby Encrusted Iron Chestplate",
   "item.gemstone_addon.ruby_helmet": "Ruby Encrusted Iron Helmet",
-  "item.gemstone_addon.ruby_leggings": "Ruby Encrusted Iron Leggings"
-
+  "item.gemstone_addon.ruby_leggings": "Ruby Encrusted Iron Leggings",
+  "block.gemstone_addon.ruby_ore": "Ruby Ore",
+  "block.gemstone_addon.topaz_ore": "Topaz Ore",
+  "block.gemstone_addon.amethyst_ore": "Amethyst Ore"
 }

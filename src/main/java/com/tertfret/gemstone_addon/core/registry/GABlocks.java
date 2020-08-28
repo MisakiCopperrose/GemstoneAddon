@@ -1,10 +1,12 @@
 package com.tertfret.gemstone_addon.core.registry;
 
 import com.tertfret.gemstone_addon.common.blocks.AmethystBlock;
+import com.tertfret.gemstone_addon.common.blocks.AmethystOre;
 import com.tertfret.gemstone_addon.common.blocks.GemstoneWorkbench;
 import com.tertfret.gemstone_addon.common.blocks.RubyBlock;
 import com.tertfret.gemstone_addon.common.blocks.RubyOre;
 import com.tertfret.gemstone_addon.common.blocks.TopazBlock;
+import com.tertfret.gemstone_addon.common.blocks.TopazOre;
 import com.tertfret.gemstone_addon.core.GemstoneAddon;
 
 import net.minecraft.block.Block;
@@ -38,6 +40,8 @@ public class GABlocks {
 
         // Ores
         public static final RegistryObject<Block> RUBY_ORE = BLOCKS.register("ruby_ore", RubyOre::new);
+        public static final RegistryObject<Block> TOPAZ_ORE = BLOCKS.register("topaz_ore", TopazOre::new);
+        public static final RegistryObject<Block> AMETHYST_ORE = BLOCKS.register("amethyst_ore", AmethystOre::new);
 
         // Block items
         public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block",
@@ -47,6 +51,15 @@ public class GABlocks {
         public static final RegistryObject<Item> AMETHYST_BLOCK_ITEM = ITEMS.register("amethyst_block",
                         () -> new BlockItemBase(AMETHYST_BLOCK.get()));
 
+        // Interactive item
         public static final RegistryObject<Item> GEMSTONE_WORKBENCH_ITEM = ITEMS.register("gemstone_workbench",
                         () -> new BlockItemBase(GEMSTONE_WORKBENCH.get()));
+
+        // Ore item
+        public static final RegistryObject<Item> RUBY_ORE_ITEM = ITEMS.register("ruby_ore",
+                        () -> new BlockItemBase(RUBY_ORE.get()));
+        public static final RegistryObject<Item> TOPAZ_ORE_ITEM = ITEMS.register("topaz_ore",
+                        () -> new BlockItemBase(TOPAZ_ORE.get()));
+        public static final RegistryObject<Item> AMETHYST_ORE_ITEM = ITEMS.register("amethyst_ore",
+                        () -> new BlockItemBase(AMETHYST_ORE.get()));
 }

@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "gemstone_addon:block/ruby_ore" }
+  }
+}

@@ -10,9 +10,9 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.IWorldReader;
 import net.minecraftforge.common.ToolType;
 
-public class RubyOre extends OreBlock {
+public class TopazOre extends OreBlock {
 
-    public RubyOre() {
+    public TopazOre() {
         super(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0f, 4.0f).sound(SoundType.STONE)
                 .harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool());
     }

@@ -20,7 +20,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class OreGen {
 
     @SubscribeEvent
-    public static void generateOre(FMLLoadCompleteEvent event) {
+    public static void generateOres(FMLLoadCompleteEvent event) {
         for (Biome biome : ForgeRegistries.BIOMES) {
 
             //Nether Generation
@@ -33,7 +33,9 @@ public class OreGen {
             } 
             //Overworld Generation
             else {
-                oreGen(biome, 15, 15, 2, 50, OreFeatureConfig.FillerBlockType.NATURAL_STONE, GABlocks.RUBY_ORE.get().getDefaultState(), 10);
+                oreGen(biome, 20, 1, 2, 48, OreFeatureConfig.FillerBlockType.NATURAL_STONE, GABlocks.RUBY_ORE.get().getDefaultState(), 10);
+                oreGen(biome, 20, 1, 2, 48, OreFeatureConfig.FillerBlockType.NATURAL_STONE, GABlocks.TOPAZ_ORE.get().getDefaultState(), 10);
+                oreGen(biome, 20, 1, 2, 48, OreFeatureConfig.FillerBlockType.NATURAL_STONE, GABlocks.AMETHYST_ORE.get().getDefaultState(), 10);
             }
             
         }
