@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "gemstone_addon:blocks/amethyst_block"
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "gemstone_addon:items/topaz_hoe"
-  }
-}
