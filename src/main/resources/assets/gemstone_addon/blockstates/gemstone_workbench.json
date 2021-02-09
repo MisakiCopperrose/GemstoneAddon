@@ -1,0 +1,8 @@
+{
+    "variants": { 
+       "facing=north" : { "model": "gemstone_addon:block/gemstone_workbench" },
+       "facing=south" : { "model": "gemstone_addon:block/gemstone_workbench", "y": 180},
+       "facing=west" : { "model": "gemstone_addon:block/gemstone_workbench" , "y": 270},
+       "facing=east" : { "model": "gemstone_addon:block/gemstone_workbench", "y": 90}
+    }
+}
