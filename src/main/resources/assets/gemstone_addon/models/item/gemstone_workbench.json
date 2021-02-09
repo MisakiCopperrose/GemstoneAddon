@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-      "layer0": "gemstone_addon:items/gemstone_workbench"
-    }
-  }
-  
